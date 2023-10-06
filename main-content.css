@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.main-content{
+    /* border: 2px solid red; */
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.left-filter-container{
+    /* border: 2px solid greenyellow; */
+    /* margin: 20px; */
+    flex-basis: 20%;
+}
+/* .filter-headline{
+    border: 2px solid blue;
+    /* margin: 20px; 
+} */
+.filter-headline p{
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-left:20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+/* .filter-box{
+    border: 2px solid blue;
+    /* margin: 20px; 
+} */
+
+.filter-p {
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Source Sans 3', sans-serif; */
+
+}
+ .filter-box label{
+    display: block;
+    padding: 4px 4px 0px 0px;
+    margin-left:20px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 20px;
+}
+
+ /* input[type="checkbox"] {
+    transform: scale(1.7); 
+
+} */
+
+.right-image-container{
+    flex-basis: 80%;
+    /* border: 2px solid greenyellow; */
+    /* margin: 20px; */
+
+
+}
+/* .headline-container{
+    border: 2px solid blue;
+    /* margin: 20px; 
+
+
+} */
+.headline-container-p{
+    font-size: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Source Sans 3', sans-serif; */
+    /* margin: 20px; */
+    padding: 10px 20px 10px 60px;
+
+
+}
+.image-container{
+    display: flex;
+    flex-wrap: wrap;
+    /* border: 2px solid blue; */
+    justify-content:space-evenly;
+    cursor: pointer;
+}
+
+.card{
+    flex-basis: 26%;
+    padding: 4px 4px;
+    border: 1px solid #ccc;
+    /* border: 2px solid blue; */
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+    max-width:350px;
+
+    /* margin: 20px; */
+    margin-top: 30px; 
+    margin-left: 10px; 
+    transition: all 0.7s ease-in-out;
+
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card img {
+    border-radius: 8px;
+    max-width:350px;
+
+}
+
+.tittle {
+    padding: 4px 4px;
+    margin-top: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    /* font-family: 'Source Sans 3', sans-serif; */
+
+}
+
+.skill {
+    padding: 4px 4px;
+    margin-top: 20px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Source Sans 3', sans-serif;
+
+
+}
+
+.checked{
+    color: orange;
+    padding: 4px 4px;
+    margin-top: 20px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Source Sans 3', sans-serif;
+
+
+
+}
+
+.rating {
+    color: black;
+    margin-top: 20px;
+
+}
+
+.duration {
+    padding: 4px 4px;
+    /* font-family: 'Josefin Sans', sans-serif; */
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 17px;
+}
+
